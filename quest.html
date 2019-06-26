@@ -86,15 +86,36 @@
                             
                             </tr>
             </table>
-            <form>
-                <label></label>
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <button></button>
+            <section>
+            <form method="POST" action="https://formspree.io/lyudmyla.horbyk@gmail.com">
+                <label>Name:
+                <input type="text" name="name" placeholder="Name" required>
+                </label>
+                <br>
+                <label>Email:
+                    <input type="email" name="email" placeholder="Email" required>
+                    </label>
+                    <br>
+                    <label>Password:
+                        <input type="password" name="password" placeholder="Password">
+                        </label>
+                    <br>
+                    <lebel>Gender</lebel>
+                    <label>
+                
+                        <input type="radio" name="gender" value="male">Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female">Female
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="other">Other
+                        </label>
+                <br>
+                <input type="submit">
+            <input type="reset">
             </form>
+            </section>
             
         </section>
         
